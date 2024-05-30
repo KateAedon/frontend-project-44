@@ -32,7 +32,7 @@ const getQuestionAndAnswer = () => {
     const num1 = getRandomNumber(1, 10); //нижняя и верхние границы диапазона
     const num2 = getRandomNumber(1, 10);
 
-    const question = `${num1}${operator}${num2}`;
+    const question = `${num1} ${operator} ${num2}`;
     const correctAnswer = calculate(operator, num1, num2).toString();
     
     return [question, correctAnswer];
