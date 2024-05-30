@@ -1,3 +1,8 @@
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/KateAedon/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KateAedon/frontend-project-44/actions)
+
+<a href="https://codeclimate.com/github/KateAedon/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/c090e0927605a0afed58/maintainability" /></a>
+
 # Brain Games
 
 Набор консольных игр для прокачки мозгов. Каждая игра задаёт вопросы, на которые нужно дать правильный ответ.
@@ -25,8 +30,3 @@
 * brain-calc demonstration https://asciinema.org/a/fEYZ6kBhxFtoLJRbrX3q5c7Iw
 * brain-gcd demonstration https://asciinema.org/a/AoEAOrkbvgE5SiKqM6hJqp52k
 * brain-prime demonstration https://asciinema.org/a/EwObVaLn0IrjaUmp4WtW1hG3d
-
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/KateAedon/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KateAedon/frontend-project-44/actions)
-
-<a href="https://codeclimate.com/github/KateAedon/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/c090e0927605a0afed58/maintainability" /></a>
