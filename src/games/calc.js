@@ -1,10 +1,10 @@
-import game from "../index.js";
-import getRandomNumber from "../generateRandomNumber.js";
+import game from '../index.js';
+import getRandomNumber from '../generateRandomNumber.js';
 
-const description = "What is the result of the expression?";
+const description = 'What is the result of the expression?';
 
 function getRandomOperation() {
-  const operations = ["+", "-", "*"];
+  const operations = ['+', '-', '*'];
   const randomIndex = Math.floor(Math.random() * operations.length);
   return operations[randomIndex];
 }
@@ -12,13 +12,13 @@ function getRandomOperation() {
 function calculate(operator, num1, num2) {
   let result;
   switch (operator) {
-    case "+":
+    case '+':
       result = num1 + num2;
       break;
-    case "-":
+    case '-':
       result = num1 - num2;
       break;
-    case "*":
+    case '*':
       result = num1 * num2;
       break;
   }
@@ -27,7 +27,7 @@ function calculate(operator, num1, num2) {
 
 const getQuestionAndAnswer = () => {
   const operator = getRandomOperation();
-  const num1 = getRandomNumber(1, 10); //нижняя и верхние границы диапазона
+  const num1 = getRandomNumber(1, 10); // нижняя и верхние границы диапазона
   const num2 = getRandomNumber(1, 10);
 
   const question = `${num1} ${operator} ${num2}`;
