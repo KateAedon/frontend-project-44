@@ -7,7 +7,7 @@ export default (description, getQuestionAndAnswer) => {
   const name = greetUser();
   console.log(description);
 
-  for (let i = 0; i < countRound; i++) {
+  for (let i = 0; i < countRound; i += 1) {
     const [question, correctAnswer] = getQuestionAndAnswer();
     console.log(question);
     const answer = readlineSync.question('Your answer: ');
