@@ -3,7 +3,7 @@ import getRandomNumber from '../generateRandomNumber.js';
 
 const description = 'What number is missing in the progression?';
 
-const makeProgression = (number) => {
+const makeProgression = () => {
     const initialValue = getRandomNumber(1, 30);
     const difference = getRandomNumber(1, 30);
     const length = 10; //длина задана в тех.задании
@@ -23,7 +23,6 @@ const hideNumberInProgression = (progression) => {
     const hiddenNumber = progression[numberPosition];
     progression[numberPosition] = '..';
     return {progression, hiddenNumber};
-
 }
 
 const getQuestionAndAnswer = () => {
