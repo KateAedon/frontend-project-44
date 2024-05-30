@@ -30,3 +30,4 @@
 * brain-calc demonstration https://asciinema.org/a/fEYZ6kBhxFtoLJRbrX3q5c7Iw
 * brain-gcd demonstration https://asciinema.org/a/AoEAOrkbvgE5SiKqM6hJqp52k
 * brain-prime demonstration https://asciinema.org/a/EwObVaLn0IrjaUmp4WtW1hG3d
+* brain-progression demonstration  https://asciinema.org/a/VZLaEF1ifxiUGH17ghXfLotEn
