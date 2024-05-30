@@ -1,10 +1,10 @@
 import readlineSync from 'readline-sync';
-import greetUser from './cli.js';
 
 const countRound = 3;
 
 export default (description, getQuestionAndAnswer) => {
-  const name = greetUser();
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('May I have your name? ');
   console.log(description);
 
   for (let i = 0; i < countRound; i += 1) {
