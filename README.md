@@ -6,3 +6,4 @@
 * brain-even demonstration https://asciinema.org/a/8B2wEU4qh9C70UyAGTBAeVApo
 * brain-calc demonstration https://asciinema.org/a/fEYZ6kBhxFtoLJRbrX3q5c7Iw
 * brain-gcd demonstration https://asciinema.org/a/AoEAOrkbvgE5SiKqM6hJqp52k
+* brain-prime demonstration https://asciinema.org/a/EwObVaLn0IrjaUmp4WtW1hG3d
