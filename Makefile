@@ -24,3 +24,6 @@ publish:
 
 lint:
 	npx eslint .
+
+test:
+	@echo "No tests to run."
