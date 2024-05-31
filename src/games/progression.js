@@ -18,16 +18,18 @@ const makeProgression = () => {
   return progression;
 };
 
-const hideNumberInProgression = (progression) => {
+/* eslint-disable no-param-reassign */
+const hideNumber = (progression) => {
   const numberPosition = getRandomNumber(0, progression.length - 1);
   const hiddenNumber = progression[numberPosition];
   progression[numberPosition] = '..';
   return { progression, hiddenNumber };
 };
+/* eslint-enable no-param-reassign */
 
 const getQuestionAndAnswer = () => {
   const progression = makeProgression();
-  const { progression: progressionWithHiddenNumber, hiddenNumber } = hideNumberInProgression(progression);
+  const { progression: progressionWithHiddenNumber, hiddenNumber } = hideNumber(progression);
   const question = progressionWithHiddenNumber.join(' ');
   const correctAnswer = String(hiddenNumber);
 

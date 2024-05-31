@@ -21,6 +21,8 @@ function calculate(operator, num1, num2) {
     case '*':
       result = num1 * num2;
       break;
+    default:
+      throw new Error(`Unsupported operator: ${operator}`);
   }
   return result;
 }

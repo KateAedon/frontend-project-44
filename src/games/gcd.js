@@ -3,6 +3,7 @@ import getRandomNumber from '../generateRandomNumber.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
+/* eslint-disable no-param-reassign */
 function gcd(a, b) {
   while (b !== 0) {
     const temp = b;
@@ -11,6 +12,7 @@ function gcd(a, b) {
   }
   return a;
 }
+/* eslint-enable no-param-reassign */
 
 const getQuestionAndAnswer = () => {
   const num1 = getRandomNumber(1, 30); // нижняя и верхние границы диапазона
