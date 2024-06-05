@@ -27,7 +27,8 @@
   "homepage": "https://github.com/KateAedon/frontend-project-44#readme",
   "dependencies": {
     "-": "^0.0.1",
-    "brain-games": "^1.1.5"
+    "brain-games": "^1.1.5",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@eslint/create-config": "^1.0.0",
