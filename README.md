@@ -6,29 +6,34 @@
 
 # Brain Games
 
-Набор консольных игр для прокачки мозгов. Каждая игра задаёт вопросы, на которые нужно дать правильный ответ.
+A set of console games for brain training. Each game asks questions that need to be answered correctly.
 
-## Минимальные требования
+## Minimum Requirements
 
-- Node.js версии 20.0.0 и выше
-- npm версии 10.0.0 и выше
+- Node.js version 20.0.0 or higher
+- npm version 10.0.0 or higher
 
-## Установка
+## Installation
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
    git clone https://github.com/yourusername/brain-games.git
 
-2. Перейдите в директорию проекта:
+2. Navigate to the project directory:
    cd brain-games
 
-3. Установите зависимости:
+3. Install the dependencies:
    npm install
 
-4. Для запуска одной из игр выполните команду:
-   brain-even
+4. To start one of the games, run the command:
+- brain-even
+- brain-calc
+- brain-gcd
+- brain-prime
+- brain-progression
 
-- brain-even demonstration https://asciinema.org/a/8B2wEU4qh9C70UyAGTBAeVApo
-- brain-calc demonstration https://asciinema.org/a/fEYZ6kBhxFtoLJRbrX3q5c7Iw
-- brain-gcd demonstration https://asciinema.org/a/AoEAOrkbvgE5SiKqM6hJqp52k
-- brain-prime demonstration https://asciinema.org/a/EwObVaLn0IrjaUmp4WtW1hG3d
-- brain-progression demonstration https://asciinema.org/a/VZLaEF1ifxiUGH17ghXfLotEn
+## Demonstration
+- brain-even demonstration https://asciinema.org/a/wMIUdZe2ecTkvcpPSUBXkq8u2
+- brain-calc demonstration https://asciinema.org/a/TlKhAku5RGUuCcsKDdJHKx987
+- brain-gcd demonstration https://asciinema.org/a/xd94QbhrGxeCVceqr7MzOgXmt
+- brain-prime demonstration https://asciinema.org/a/qpYMbOp4EdhIk0gNm5G8NBzBd
+- brain-progression demonstration https://asciinema.org/a/UcwkeaamjCXFZB1end7CF2gzm
