@@ -8,28 +8,42 @@
 
 A set of console games for brain training. Each game asks questions that need to be answered correctly.
 
-## Minimum Requirements
+## Requirements
 
-- Node.js version 20.0.0 or higher
+- Node.js version 13.2.0 or higher
 - npm version 10.0.0 or higher
 
-## Installation
+### install
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/brain-games.git
-
+```
+git clone https://github.com/yourusername/brain-games.git
+```
 2. Navigate to the project directory:
-   cd brain-games
-
-3. Install the dependencies:
-   npm install
+```
+cd brain-games
+```
+3. Install dependencies
+```
+npm install
+```
 
 4. To start one of the games, run the command:
+```
 - brain-even
-- brain-calc
-- brain-gcd
-- brain-prime
-- brain-progression
+```
+```
+brain-calc
+```
+```
+brain-gcd
+```
+```
+brain-prime
+```
+```
+brain-progression
+```
 
 ## Demonstration
 - brain-even demonstration https://asciinema.org/a/wMIUdZe2ecTkvcpPSUBXkq8u2
