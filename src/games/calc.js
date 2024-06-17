@@ -5,7 +5,7 @@ const description = 'What is the result of the expression?';
 const operations = ['+', '-', '*'];
 
 function getRandomOperation() {
-  const randomIndex = getRandomIndex(operations)
+  const randomIndex = getRandomIndex(operations);
   return operations[randomIndex];
 }
 
