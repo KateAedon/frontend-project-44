@@ -2,9 +2,9 @@ import game from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const description = 'What is the result of the expression?';
+const operations = ['+', '-', '*'];
 
 function getRandomOperation() {
-  const operations = ['+', '-', '*'];
   const randomIndex = Math.floor(Math.random() * operations.length);
   return operations[randomIndex];
 }
