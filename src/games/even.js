@@ -9,7 +9,7 @@ const getQuestionAndAnswer = () => {
   const question = getRandomNumber(1, 30);
   const correctAnswer = isEven(question) ? 'yes' : 'no';
 
-  return [`Question: ${question}`, correctAnswer];
+  return [`${question}`, correctAnswer];
 };
 export default () => {
   game(description, getQuestionAndAnswer);
