@@ -30,7 +30,7 @@ npm install
 
 4. To start one of the games, run the command:
 ```
-- brain-even
+brain-even
 ```
 ```
 brain-calc
