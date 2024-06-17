@@ -1,5 +1,5 @@
 import game from '../index.js';
-import getRandomNumber from '../utils.js';
+import getRandomNumber, { getRandomIndex }  from '../utils.js';
 
 const description = 'What number is missing in the progression?';
 
@@ -20,7 +20,7 @@ const makeProgression = () => {
 
 /* eslint-disable no-param-reassign */
 const hideNumber = (progression) => {
-  const numberPosition = getRandomNumber(0, progression.length - 1);
+  const numberPosition = getRandomIndex(progression);
   const hiddenNumber = progression[numberPosition];
   progression[numberPosition] = '..';
   return { progression, hiddenNumber };

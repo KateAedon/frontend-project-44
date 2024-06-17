@@ -1,11 +1,11 @@
 import game from '../index.js';
-import getRandomNumber from '../utils.js';
+import getRandomNumber, { getRandomIndex } from '../utils.js';
 
 const description = 'What is the result of the expression?';
 const operations = ['+', '-', '*'];
 
 function getRandomOperation() {
-  const randomIndex = Math.floor(Math.random() * operations.length);
+  const randomIndex = getRandomIndex(operations)
   return operations[randomIndex];
 }
 
