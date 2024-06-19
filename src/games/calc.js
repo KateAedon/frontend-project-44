@@ -4,27 +4,18 @@ import { getRandomNumber, getRandomIndex } from '../utils.js';
 const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
-/*function getRandomOperator() {
-  const randomIndex = getRandomIndex(operations);
-  return operations[randomIndex];
-}*/
-
 function calculate(operator, num1, num2) {
   let result;
   switch (operator) {
     case '+':
-      result = num1 + num2;
-      break;
+      return num1 + num2;
     case '-':
-      result = num1 - num2;
-      break;
+      return num1 - num2;
     case '*':
-      result = num1 * num2;
-      break;
+      return num1 * num2;
     default:
       throw new Error(`Unsupported operator: ${operator}`);
   }
-  return result;
 }
 
 const getQuestionAndAnswer = () => {
