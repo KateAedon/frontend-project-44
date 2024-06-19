@@ -2,12 +2,12 @@ import game from '../index.js';
 import { getRandomNumber, getRandomIndex } from '../utils.js';
 
 const description = 'What is the result of the expression?';
-const operations = ['+', '-', '*'];
+const operators = ['+', '-', '*'];
 
-function getRandomOperation() {
+/*function getRandomOperator() {
   const randomIndex = getRandomIndex(operations);
   return operations[randomIndex];
-}
+}*/
 
 function calculate(operator, num1, num2) {
   let result;
@@ -28,7 +28,7 @@ function calculate(operator, num1, num2) {
 }
 
 const getQuestionAndAnswer = () => {
-  const operator = getRandomOperation();
+  const operator = operators[getRandomIndex(operators)];
   const num1 = getRandomNumber(1, 10); // нижняя и верхние границы диапазона
   const num2 = getRandomNumber(1, 10);
 
