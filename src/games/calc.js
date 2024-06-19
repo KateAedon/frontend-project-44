@@ -5,7 +5,6 @@ const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
 function calculate(operator, num1, num2) {
-  let result;
   switch (operator) {
     case '+':
       return num1 + num2;
