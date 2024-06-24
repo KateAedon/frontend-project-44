@@ -9,7 +9,7 @@ const getTask = () => {
   const question = getRandomNumber(1, 30);
   const correctAnswer = isEven(question) ? 'yes' : 'no';
 
-  return [`${question}`, correctAnswer];
+  return [question, correctAnswer];
 };
 export default () => {
   game(description, getTask);

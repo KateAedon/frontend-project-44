@@ -20,7 +20,7 @@ const getTask = () => {
   const question = `${num1} ${num2}`;
   const correctAnswer = gcd(num1, num2).toString();
 
-  return [`${question}`, correctAnswer];
+  return [question, correctAnswer];
 };
 
 export default () => {
