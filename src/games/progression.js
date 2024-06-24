@@ -24,7 +24,7 @@ const getTask = () => {
   progression[numberPosition] = '..';
 
   const question = progression.join(' ');
-  const correctAnswer = String(hiddenNumber);
+  const correctAnswer = hiddenNumber.toString();
 
   return [question, correctAnswer];
 };
