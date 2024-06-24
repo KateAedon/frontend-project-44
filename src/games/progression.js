@@ -2,8 +2,8 @@ import game from '../index.js';
 import { getRandomNumber, getRandomIndex } from '../utils.js';
 
 const description = 'What number is missing in the progression?';
-const initialValue = getRandomNumber(1, 30);
-const difference = getRandomNumber(1, 30);
+const initialValue = getRandomNumber(1, 50);
+const difference = getRandomNumber(1, 50);
 
 const makeProgression = (initialValue, difference) => {
   const length = 10; // длина задана в тех.задании  
@@ -17,19 +17,13 @@ const makeProgression = (initialValue, difference) => {
   return progression;
 };
 
-/* eslint-disable no-param-reassign */
-const hideNumber = (progression) => {
+const getTask = () => {
+  const progression = makeProgression(initialValue, difference);
   const numberPosition = getRandomIndex(progression);
   const hiddenNumber = progression[numberPosition];
   progression[numberPosition] = '..';
-  return { progression, hiddenNumber };
-};
-/* eslint-enable no-param-reassign */
 
-const getTask = () => {
-  const progression = makeProgression(initialValue, difference);
-  const { progression: progressionWithHiddenNumber, hiddenNumber } = hideNumber(progression);
-  const question = progressionWithHiddenNumber.join(' ');
+  const question = progression.join(' ');
   const correctAnswer = String(hiddenNumber);
 
   return [question, correctAnswer];
