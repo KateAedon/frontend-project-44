@@ -5,8 +5,8 @@ const description = 'What number is missing in the progression?';
 const initialValue = getRandomNumber(1, 50);
 const difference = getRandomNumber(1, 50);
 
-const makeProgression = (initialValue, difference) => {
-  const length = 10; // длина задана в тех.задании  
+const makeProgression = () => {
+  const length = 10; // длина задана в тех.задании
   const progression = [];
 
   for (let i = 0; i < length; i += 1) {
