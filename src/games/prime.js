@@ -16,12 +16,12 @@ const isPrime = (num) => {
   return true;
 };
 
-const getQuestionAndAnswer = () => {
+const getTask = () => {
   const question = getRandomNumber(1, 30);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return [`${question}`, correctAnswer];
 };
 
 export default () => {
-  game(description, getQuestionAndAnswer);
+  game(description, getTask);
 };

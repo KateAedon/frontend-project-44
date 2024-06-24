@@ -14,7 +14,7 @@ function gcd(a, b) {
 }
 /* eslint-enable no-param-reassign */
 
-const getQuestionAndAnswer = () => {
+const getTask = () => {
   const num1 = getRandomNumber(1, 30); // нижняя и верхние границы диапазона
   const num2 = getRandomNumber(1, 30);
   const question = `${num1} ${num2}`;
@@ -24,5 +24,5 @@ const getQuestionAndAnswer = () => {
 };
 
 export default () => {
-  game(description, getQuestionAndAnswer);
+  game(description, getTask);
 };

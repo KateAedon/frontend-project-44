@@ -17,7 +17,7 @@ function calculate(operator, num1, num2) {
   }
 }
 
-const getQuestionAndAnswer = () => {
+const getTask = () => {
   const operator = operators[getRandomIndex(operators)];
   const num1 = getRandomNumber(1, 10); // нижняя и верхние границы диапазона
   const num2 = getRandomNumber(1, 10);
@@ -29,5 +29,5 @@ const getQuestionAndAnswer = () => {
 };
 
 export default () => {
-  game(description, getQuestionAndAnswer);
+  game(description, getTask);
 };

@@ -27,7 +27,7 @@ const hideNumber = (progression) => {
 };
 /* eslint-enable no-param-reassign */
 
-const getQuestionAndAnswer = () => {
+const getTask = () => {
   const progression = makeProgression();
   const { progression: progressionWithHiddenNumber, hiddenNumber } = hideNumber(progression);
   const question = progressionWithHiddenNumber.join(' ');
@@ -36,5 +36,5 @@ const getQuestionAndAnswer = () => {
   return [`${question}`, correctAnswer];
 };
 export default () => {
-  game(description, getQuestionAndAnswer);
+  game(description, getTask);
 };
