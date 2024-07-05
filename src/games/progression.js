@@ -1,13 +1,14 @@
 import game from '../index.js';
 import { getRandomNumber, getRandomIndex } from '../utils.js';
 
+const length = 10; // длина задана в тех.задании
 const description = 'What number is missing in the progression?';
-const initialValue = getRandomNumber(1, 50);
-const difference = getRandomNumber(1, 50);
+
 
 const makeProgression = () => {
-  const length = 10; // длина задана в тех.задании
   const progression = [];
+  const initialValue = getRandomNumber(1, 50);
+  const difference = getRandomNumber(1, 50);
 
   for (let i = 0; i < length; i += 1) {
     const value = initialValue + i * difference;
@@ -18,7 +19,7 @@ const makeProgression = () => {
 };
 
 const getTask = () => {
-  const progression = makeProgression(initialValue, difference);
+  const progression = makeProgression();
   const numberPosition = getRandomIndex(progression);
   const hiddenNumber = progression[numberPosition];
   progression[numberPosition] = '..';
