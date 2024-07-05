@@ -15,7 +15,7 @@ const getGcd = (a, b) => {
 };
 
 const getTask = () => {
-  const num1 = getRandomNumber(1, 30); // нижняя и верхние границы диапазона
+  const num1 = getRandomNumber(1, 30);
   const num2 = getRandomNumber(1, 30);
   const question = `${num1} ${num2}`;
   const correctAnswer = getGcd(num1, num2).toString();
